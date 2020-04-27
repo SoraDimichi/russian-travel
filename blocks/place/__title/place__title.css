@@ -5,5 +5,19 @@
   line-height: 1.055;
 
   color: inherit;
-  background-color: transparent;  
+  background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 2.875rem;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 2rem;
+    line-height: 1.094;
+  }
 }

@@ -12,8 +12,12 @@
 
 @import url('../blocks/footer/footer.css');
 
+div, .footer, .header {
+  border: blue 2px solid;
+}
+
 img {
-  display:none;
+  border: green 1px solid;
 }
 
 p, h1, h2, a, ul, li {
