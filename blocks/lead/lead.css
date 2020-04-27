@@ -4,5 +4,5 @@
 @import url('./__title/lead__title.css');
 
 .lead {
-  
+  max-width: 76.875vw;
 }
