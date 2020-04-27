@@ -6,9 +6,12 @@
 
 /* РАЗОБРАТЬСЯ С ОТНОСИТЕЛЬНОЙ ВЕЛИЧИНОЙ */
 .intro {
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-self: flex-start;
+  max-width: 76.875vw;
+  display: grid;
+  grid-template-columns: 690px minmax(0, calc(76.875vw - 53.9vw));
+  grid-template-rows: repeat(3, auto);
 }
+
+
+/* grid-template-columns: minmax(288px, 700px) 300px; */
+/* grid-template-columns: minmax(min-content, max-content) calc(76.875vw - 53.9vw); */
