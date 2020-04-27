@@ -4,5 +4,5 @@
 @import url('./__span-accent/intro__span-accent.css');
 
 .intro {
-
+  max-width: 53.9vw;
 }
