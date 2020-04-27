@@ -11,15 +11,3 @@
     @import url('../blocks/cover/cover.css');
 
 @import url('../blocks/footer/footer.css');
-
-div, .footer, .header {
-  border: blue 2px solid;
-}
-
-img {
-  border: green 1px solid;
-}
-
-p, h1, h2, a, ul, li {
-  border: red 1px solid;
-}

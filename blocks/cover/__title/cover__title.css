@@ -9,3 +9,10 @@
   color: #fffdfd;
   background-color: transparent;
 }
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 2rem;
+    line-height: 1.094;
+  }
+}
