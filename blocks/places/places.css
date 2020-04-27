@@ -1,3 +1,7 @@
 .places {
   max-width: 76.875vw;
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 80px;
+  justify-items: center;
 }
