@@ -1,3 +1,9 @@
 .place__paragraph {
+  margin: 0;
+  
+  font-size: 1.125rem;
+  line-height: 1.666;
 
+  color: inherit;
+  background-color: transparent;
 }

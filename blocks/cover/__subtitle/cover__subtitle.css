@@ -1,5 +1,11 @@
 .cover__subtitle {
-  color:inherit;
+  margin: 0;
+
+  font-size: 1.125rem;
+  line-height: 1.222;
+
+  text-align: center;
+
+  color: inherit;
   background-color: transparent;
-  text-decoration: inherit;
 }

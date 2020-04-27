@@ -1,5 +1,11 @@
 .cover__title {
-  color:inherit;
+  margin: 0;
+
+  font-size: 4.5rem;
+  line-height: 1.055;
+
+  text-align: center;
+
+  color: #fffdfd;
   background-color: transparent;
-  text-decoration: inherit;
 }

@@ -1,3 +1,12 @@
 .header__lang-link {
+  font-size: 1.5rem;
+  line-height: 1.166;
+  text-decoration: none;
 
+  color: inherit;
+  background-color: transparent;
+}
+
+.header__lang-link:active {
+  text-decoration: underline;
 }

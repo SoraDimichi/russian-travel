@@ -1,3 +1,11 @@
 .place__link {
+  margin: 0;
 
+  font-size: 1.125rem;
+  line-height: 1.222;
+
+  text-decoration: underline;
+
+  color: inherit;
+  background-color: transparent;
 }
