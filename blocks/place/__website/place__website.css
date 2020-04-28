@@ -1,7 +1,12 @@
 .place__website {
-  grid-row: 1;
-  grid-column: 2;
-  align-self: end;
+  grid-area: place__website;
+
+  display: grid;
+  grid-template-areas:
+    'place__url-heading'
+    'place__link';
+  grid-gap: 12px 0;
+  place-self: end start;
 }
 
 @media screen and (max-width: 320px) {

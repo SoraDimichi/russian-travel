@@ -1,5 +1,5 @@
 .place__url-heading {
-  
+  grid-area: place__url-heading;
 
   margin: 0;
 
