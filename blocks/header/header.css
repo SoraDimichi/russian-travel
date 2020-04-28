@@ -3,7 +3,7 @@
 @import url('./__logo/header__logo.css');
 
 .header {
+  padding: 28px 0 56px 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
