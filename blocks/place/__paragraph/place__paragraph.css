@@ -1,5 +1,6 @@
 .place__paragraph {
-  margin: 0;
+  grid-row: auto;
+  grid-column: 2;
 
   font-size: 1.125rem;
   line-height: 1.666;
