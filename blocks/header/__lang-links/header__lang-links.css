@@ -1,5 +1,6 @@
 .header__lang-links {
   padding: 0;
+  grid-area: header__lang-links;
   display:flex;
   justify-content: space-between;
   align-items: center;

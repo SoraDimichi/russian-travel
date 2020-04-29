@@ -7,15 +7,24 @@
 
 .intro {
   grid-area: intro;
-  max-width: 76.875vw;
-  display: inline-grid;
+  display: grid;
   grid-template-areas:
-    'intro__title'
-    'intro__text'
-    'intro__list';
-  grid-template-columns: minmax(min-content, 640px) minmax(min-content, calc(76.875vw - 640px));
+    '. intro__title . .'
+    '. intro__text . .'
+    '. intro__list . .';
+  grid-template-columns: minmax(5vw, 1fr) 690px minmax(0, 294px) minmax(5vw, 1fr);
 }
 
+/* НЕ ПОЛУЧИЛОСЬ ПРИДУМАТЬ ЛУЧШЕ, ПОМОГИТЕ, ПОЖАЛУЙСТА */
 
-/* grid-template-columns: minmax(288px, 700px) 300px; */
-/* grid-template-columns: minmax(min-content, max-content) calc(76.875vw - 53.9vw); */
+@media screen and (max-width: 750px) {
+  .intro {
+    grid-area: intro;
+    display: grid;
+    grid-template-areas:
+      '. intro__title .'
+      '. intro__text .'
+      '. intro__list .';
+    grid-template-columns: minmax(5vw, 1fr) auto minmax(5vw, 1fr);
+  }
+}

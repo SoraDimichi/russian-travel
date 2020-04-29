@@ -1,3 +1,4 @@
 .lead__image {
+  grid-area: lead__image;
   width: 100%;
 }

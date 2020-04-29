@@ -1,8 +1,7 @@
 .places {
   grid-area: places;
-
   display: grid;
-  grid-template-rows: auto;
+  
   grid-row-gap: 80px;
   justify-items: center;
 }

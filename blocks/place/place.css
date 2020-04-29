@@ -18,12 +18,13 @@
   place-content: center end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 690px) {
   .place {
     grid-template-areas:
-      'place__title'
-      'place__image'
-      'place__paragraphs';
+      '. place__title .'
+      '. place__image .'
+      '. place__paragraphs .';
+    grid-template-columns: 5vw 1fr 5vw;
     justify-content: center;
     align-content: end;
   }

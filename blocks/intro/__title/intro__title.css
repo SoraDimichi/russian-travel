@@ -10,7 +10,7 @@
   background-color: transparent;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
   .intro__title  {
     font-size: 2rem;
     line-height: 1.094;

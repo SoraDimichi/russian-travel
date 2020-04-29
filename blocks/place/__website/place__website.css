@@ -9,7 +9,7 @@
   place-self: end start;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 706px) {
   .place__website {
     display: none;
   }

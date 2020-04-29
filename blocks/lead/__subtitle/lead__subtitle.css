@@ -1,4 +1,5 @@
 .lead__subtitle {
+  grid-area: lead__subtitle;
   margin: 0 0 64px 0;
 
   font-size: 1.875rem;

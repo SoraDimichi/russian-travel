@@ -5,7 +5,12 @@
 .header {
   grid-area: header;
 
-  padding: 28px 0 56px 0;
-  display: flex;
+  display: inline-grid;
+  grid-template-areas:
+    'header__logo header__lang-links';
+  padding: 28px 5vw 56px 5vw;
+  grid-template-columns: auto auto;
+
   justify-content: space-between;
+  align-items: center;
 }

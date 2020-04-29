@@ -1,4 +1,6 @@
 .lead__caption {
+  grid-area: lead__caption;
+
   margin: 0;
 
   font-size: 0.625rem;

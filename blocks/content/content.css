@@ -3,12 +3,13 @@
 
   display: grid;
   grid-template-areas:
-  '. lead .'
-  '. intro .'
+  'lead'
+  'intro'
   'photo-grid'
-  '. places .'
+  'places'
   'cover';
-  
+
+  grid-template-rows: repeat(5, auto);
 
   grid-row-gap: 92px;
   justify-items: center;
