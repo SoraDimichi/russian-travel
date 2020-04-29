@@ -16,16 +16,19 @@
   grid-template-columns: 1fr 1fr;
   gap: 4vh 3.2vw ;
   place-content: center end;
+  max-width: 984px;
+  margin: 0 5vw 0 5vw;
 }
 
 @media screen and (max-width: 690px) {
   .place {
     grid-template-areas:
-      '. place__title .'
-      '. place__image .'
-      '. place__paragraphs .';
-    grid-template-columns: 5vw 1fr 5vw;
+      'place__title'
+      'place__image'
+      'place__paragraphs';
+    grid-template-columns: 1fr;
     justify-content: center;
     align-content: end;
+    margin: 0 0 0 0;
   }
 }

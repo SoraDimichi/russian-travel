@@ -11,6 +11,12 @@
   background-color: transparent;
 }
 
+@media screen and (max-width: 984px) {
+  .lead__subtitle  {
+    margin: 0 5vw 64px 5vw;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .lead__subtitle  {
     font-size: 1rem;
