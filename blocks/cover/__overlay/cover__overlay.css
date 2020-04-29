@@ -1,12 +1,21 @@
 .cover__overlay {
   margin: 0;
   opacity: 0.7;
-  position: relative;
   width:100%;
   z-index: 0;
+
+  color:inherit;
+  text-decoration: inherit;
+  background-color: transparent;
 }
 
 .cover__overlay:hover {
   opacity: 0.3;
   transition: opacity 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay:hover {
+    opacity: inherit;
+  }
 }
