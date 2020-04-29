@@ -5,8 +5,8 @@
 .cover {
   grid-area: cover;
 
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   background-image: url('./cover__background.jpg');
   background-size: cover;
   min-height: 40vw;
