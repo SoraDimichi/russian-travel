@@ -12,12 +12,21 @@
   grid-area: cover;
   position: relative;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  background-color: #2a2c2f;
-  height: 100vh;
-  max-height: 640px;
+
   width: 100%;
-  color: inherit;
+
+  min-height: 40vw;
+
+  border: 1px solid red;
+
+  /* grid-template-columns: 1fr minmax(0, 500px) 1fr;
+  grid-template-rows: repeat(7, 1fr); */
+
   overflow: hidden;
+  background-color: #2a2c2f;
+  color: inherit;
+
+  align-content: center;
+  justify-content: center;
 }

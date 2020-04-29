@@ -1,14 +1,21 @@
 .cover__subtitle {
+  /* position: absolute; */
+  margin: 0;
+  padding: 0 50px 0 50px;
+  /* grid-column: 2 / 3;
+  grid-row: 5 / 6; */
+
   margin: 32px auto 0 auto;
   font-size: 1.125rem;
   line-height: 1.222;
 
-  max-width: 28vw;
 
   text-align: center;
-
+  width: 500px;
   color: inherit;
-  background-color: transparent;
+
+  align-self: center;
+
 
   z-index: 4;
 }

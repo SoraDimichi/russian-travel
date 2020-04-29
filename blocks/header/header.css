@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1360px) {
   .header  {
     margin: 28px 5vw 56px 5vw;
   }
