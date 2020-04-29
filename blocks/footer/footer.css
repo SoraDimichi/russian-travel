@@ -3,6 +3,8 @@
 @import url('./__link/footer__link.css');
 
 .footer {
+  grid-area: footer;
+
   display:flex;
   justify-content: space-between;
   padding-top: 90px;

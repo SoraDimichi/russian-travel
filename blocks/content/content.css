@@ -1,6 +1,15 @@
 .content {
+  grid-area: content;
+
   display: grid;
-  grid-template-rows: auto;
+  grid-template-areas:
+  '. lead .'
+  '. intro .'
+  'photo-grid'
+  '. places .'
+  'cover';
+  
+
   grid-row-gap: 92px;
   justify-items: center;
 }

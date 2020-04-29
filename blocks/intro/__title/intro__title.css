@@ -1,6 +1,5 @@
 .intro__title {
-  grid-row: 1;
-  grid-column: 1;
+  grid-area: intro__title;
 
   margin: 0;
   font-size: 3.375rem;
