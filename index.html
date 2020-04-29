@@ -12,16 +12,21 @@
   <header class="header">
     <img class="header__logo"
     src="./images/header/__logo/header__logo.svg"
-    alt="logo">
-    <div class="header__lang-links">
-
-        <a class="header__lang-link" href="#">
+    alt="Логотип">
+    <ul class="header__lang-links">
+      <li>
+  <!--Я не понимаю как сделать ссылку активной по переходу на страницу без CSS, объясните, пожалуйста -->
+         <a lang="ru" class="header__lang-link" href="./index.html">
+  <!--Я не понимаю как сделать ссылку активной по переходу на страницу без CSS, объясните, пожалуйста -->
           Ru
         </a>
-        <a class="header__lang-link" href="#">
+      </li>
+      <li>
+        <a lang="en" class="header__lang-link" href="/en">
           En
         </a>
-    </div>
+      </li>
+    </ul>
   </header>
 
   <main class="content">
@@ -33,14 +38,22 @@
       <p class="lead__subtitle">
         Настоящая страна не в выпусках новостей, а здесь.
       </p>
-      <img class="lead__image"
-      src="./images/lead/__image/lead__image-polka.jpg"
-      alt="polka">
-      <p class="lead__caption">
-        ваша полка — верхняя
-      </p>
+      <!-- Пришлось резетать, пришлось создавать новый класс, сплошные сложности...
+      Я не понимаю, что за история с figure и figcaption, какой профит извлекается
+      из использования? Красота кода?  -->
+      <figure class="lead__figure">
+        <img class="lead__image"
+        src="./images/lead/__image/lead__image-polka.jpg"
+        alt="Полка">
+        <p class="lead__caption">
+          ваша полка — верхняя
+        </p>
+      </figure>
     </div>
 
+    <!-- НЕ ПОЛУЧИЛОСЬ ПРИДУМАТЬ ЛУЧШЕ, ПОМОГИТЕ, ПОЖАЛУЙСТА
+    Я сделал с брейкпоинт, хотя в теории практикума, намекают, что можно сделать
+    без него. Подскажите, как это сделать, пожалуйста. -->
     <div class="intro">
       <h2 class="intro__title">
         Чего мы там не видели?
@@ -78,91 +91,91 @@
     <div class="photo-grid">
       <img class="photo-grid__item"
       src="./images/photo-grid/__item/photo-grid__item-train.jpg"
-      alt="train">
+      alt="Вид из поезда">
       <img
       class="photo-grid__item"
       src="./images/photo-grid/__item/photo-grid__item-atharva-tulsi.jpg"
-      alt="atharva-tulsi">
+      alt="Красивый вид из самолета">
       <img class="photo-grid__item"
       src="./images/photo-grid/__item/photo-grid__item-tuman.jpg"
-      alt="tuman">
+      alt="Одинокий волк смотрящий в даль">
       <img class="photo-grid__item"
       src="./images/photo-grid/__item/photo-grid__item-sochi.jpg"
-      alt="sochi">
+      alt="Прекрасный лес в горах Сочи">
       <img class="photo-grid__item"
       src="./images/photo-grid/__item/photo-grid__item-arisa.jpg"
-      alt="arisa">
+      alt="Машина, которая провалиться под лед, если не уедет">
       <img class="photo-grid__item"
       src="./images/photo-grid/__item/photo-grid__item-baikal.jpg"
-      alt="baikal">
+      alt="Пляж озера Байкал">
       <img class="photo-grid__item"
       src="./images/photo-grid/__item/photo-grid__item-elbrus.jpg"
-      alt="elbrus">
+      alt="Гора Эльбрус">
       <img class="photo-grid__item"
       src="./images/photo-grid/__item/photo-grid__item-kondratiev.jpg"
-      alt="kondratiev">
+      alt="Пешеходный переход Кодратьева">
       <img class="photo-grid__item"
       src="./images/photo-grid/__item/photo-grid__item-kamchatka-1.jpg"
-      alt="kamchatka-1">
+      alt="Камчатка">
       <img class="photo-grid__item"
       src="./images/photo-grid/__item/photo-grid__item-kamchatka-2.jpg"
-      alt="kamchatka-2">
+      alt="Камчатка-2">
       <img class="photo-grid__item"
       src="./images/photo-grid/__item/photo-grid__item-baikal-2.jpg"
-      alt="baikal-2">
+      alt="Красивая скала на озере Байкал">
       <img class="photo-grid__item"
       src="./images/photo-grid/__item/photo-grid__item-ergaki.jpg"
-      alt="ergaki">
+      alt="Горы, покрытые облаками">
     </div>
 
     <div class="places">
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">
           Куршская коса
         </h2>
         <img class="place__image"
         src="./images/place/place__image/place__image-kosa.jpg"
-        alt="kosa">
+        alt="Куршская коса">
         <div class="place__website">
           <p class="place__url-heading">
             URL
           </p>
           <a class="place__link"
-          href="http://park-kosa.ru">
+          href="http://park-kosa.ru" target="_blank">
             park-kosa.ru
           </a>
         </div>
-          <div class="place__paragraphs">
-            <p class="place__paragraph">
-              Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
-              горизонта — спокойного Куршского залива с одной стороны и подёрнутого
-              рябью волн Балтийского моря с другой. Уникальная природная зона на
-              краю российского анклава.
-            </p>
-            <p class="place__paragraph">
-              На этом Калининградская область не заканчивается. Для путешественника
-              и исследователя там же по соседству — самая западная точка России,
-              Балтийская коса, — и немецкое наследие россыпи небольших приморских
-              городов. Атмосфера здешних мест исключает суету, окуная в спокойствие
-              природы и запах стального, прохладного моря.
-            </p>
-          </div>
+        <div class="place__paragraphs">
+          <p class="place__paragraph">
+            Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
+            горизонта — спокойного Куршского залива с одной стороны и подёрнутого
+            рябью волн Балтийского моря с другой. Уникальная природная зона на
+            краю российского анклава.
+          </p>
+          <p class="place__paragraph">
+            На этом Калининградская область не заканчивается. Для путешественника
+            и исследователя там же по соседству — самая западная точка России,
+            Балтийская коса, — и немецкое наследие россыпи небольших приморских
+            городов. Атмосфера здешних мест исключает суету, окуная в спокойствие
+            природы и запах стального, прохладного моря.
+          </p>
         </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">
           Кольский
         </h2>
         <img class="place__image"
         src="./images/place/place__image/place__image-kolsky.jpg"
-        alt="kolsky">
+        alt="Кольский">
         <div class="place__website">
           <p class="place__url-heading">
             URL
           </p>
           <a class="place__link"
-          href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">
+          href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">
             National Geographic
           </a>
         </div>
@@ -181,21 +194,21 @@
             северное сияние начинает сбываться с билетом в Мурманск.
           </p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">
           Алтай
         </h2>
         <img class="place__image"
         src="./images/place/place__image/place__image-altai.jpg"
-        alt="altai">
+        alt="Алтай">
         <div class="place__website">
           <p class="place__url-heading">
             URL
           </p>
           <a class="place__link"
-          href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">
+          href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">
             Facebook
           </a>
         </div>
@@ -213,20 +226,20 @@
             И знаменитые манулы — тоже обитатели Алтайского края.
           </p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">
           Зимний Байкал
         </h2>
         <img class="place__image"
         src="./images/place/place__image/place__image-winter-baikal.jpg"
-        alt="winter-baikal">
+        alt="Зимний Байкал">
         <div class="place__website">
           <p class="place__url-heading">
             URL
           </p>
-          <a class="place__link"
+          <a class="place__link" target="_blank"
           href="https://vk.com/baikalmile">
             https://vk.com/baikalmile
           </a>
@@ -245,20 +258,20 @@
             мировой рекорд — 197.011 км/ч.
           </p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">
           Карелия
         </h2>
         <img class="place__image"
         src="./images/place/place__image/place__image-karelia.jpg"
-        alt="karelia">
+        alt="Карелия">
         <div class="place__website">
           <p class="place__url-heading">
             URL
           </p>
-          <a class="place__link"
+          <a class="place__link" target="_blank"
           href="http://vodlozero.ru">
             http://vodlozero.ru/
           </a>
@@ -276,25 +289,35 @@
             кто тут хозяин.
           </p>
         </div>
-      </div>
+      </article>
 
      </div>
 
-    <div class="cover">
-      <a class="cover__overlay"
-      href="https://stampsy.com/na-elektrichkakh-do-baikala">
-      <img class="cover__background"
-      src="./images/cover/__background/cover__background-trains.jpg" alt="trains">
-      </a>
-      <h2 class="cover__title">
-        До Байкала «на собаках»
-      </h2>
-      <p class="cover__subtitle">
-        По мотивам учебной темы о Транссибе и iframes — путешествие от столицы
-        до Байкала на электричках.
-      </p>
-    </div>
-
+<!-- Я хотел бы поинтересоваться на счет бэкграунд имэджа.
+Сейчас все делают сайты с WEBP и HEIF редиректами,
+которые генерятся и переписываются в html скриптом.
+Проще же поместить картинку в Z-index,
+или я что то путаю и тот же финт ушами можно сделать в ксс?
+И вообще мне кажется сомнительной история "контентная картинка/декоративная" из 2007 года.
+Каким образом это влияет на восприятие страницы пользователем, если контентное изображение
+хитрым способом превращается в декоративную? Нынче дизанеры многие дизайнеры делают так
+что не отличишь контентную от неконтентной картинку, фоны или просто абстракции какие то.
+А как же альты? Как пользователь узнает, что было на декоративном изображении, когда существует
+очень много решений, где бэкграунды носят информационный характер? Дилема!
+Могли бы вы ответить максимально развернуто, вы меня очень сильно запутали.
+Я сделал как вы сказали.-->
+    <a class="cover__overlay" target="_blank"
+    href="https://stampsy.com/na-elektrichkakh-do-baikala">
+      <div class="cover__background cover">
+        <h2 class="cover__title">
+          До Байкала «на собаках»
+        </h2>
+        <p class="cover__subtitle">
+          По мотивам учебной темы о Транссибе и iframes — путешествие от столицы
+          до Байкала на электричках.
+        </p>
+      </div>
+    </a>
 
   </main>
 
@@ -304,27 +327,27 @@
     <nav>
       <ul class="footer__links">
         <li>
-          <a class="footer__link" href="https://yandex.ru/maps">
+          <a class="footer__link" href="https://yandex.ru/maps" target="_blank">
             Карты
           </a>
         </li>
         <li>
-          <a class="footer__link" href="https://yandex.ru/pogoda">
+          <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">
             Погода
           </a>
         </li>
         <li>
-          <a class="footer__link" href="https://rasp.yandex.ru">
+          <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">
             Расписание
           </a>
         </li>
         <li>
-          <a class="footer__link" href="https://calendar.yandex.ru">
+          <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">
             Календарь
           </a>
         </li>
         <li>
-          <a class="footer__link" href="https://travel.yandex.ru">
+          <a class="footer__link" href="https://travel.yandex.ru" target="_blank">
             Путешествия
           </a>
         </li>

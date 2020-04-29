@@ -1,7 +1,10 @@
 .header__lang-links {
+  list-style: none;
   padding: 0;
+
   grid-area: header__lang-links;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  }
+  display:grid;
+  grid-template-columns: max-content max-content;
+  grid-column-gap: 18px;
+  align-items: center;  
+}

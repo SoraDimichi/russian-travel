@@ -3,11 +3,11 @@
 
   font-size: 4.5rem;
   line-height: 1.055;
+  font-weight: 900;
 
   margin: 0;
 
-  color: inherit;
-  background-color: transparent;
+
 }
 
 @media screen and (max-width: 690px) {

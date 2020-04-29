@@ -1,7 +1,7 @@
 .places {
   grid-area: places;
   display: grid;
-  
+
   grid-row-gap: 80px;
   justify-items: center;
 }
