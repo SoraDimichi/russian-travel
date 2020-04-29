@@ -4,9 +4,31 @@
 
 .footer {
   grid-area: footer;
+  display: grid;
+  grid-template-areas:
+    'footer__links footer__copyright';
+  margin: 90px 0 24px 0;
+  grid-template-columns: auto auto;
 
-  display:flex;
   justify-content: space-between;
-  padding-top: 90px;
-  padding-bottom: 24px;
+  align-items: center;
+}
+
+  @media screen and (max-width: 1360px) {
+  .footer  {
+    margin: 90px 3vw 24px 3vw;
+  }
+}
+
+
+
+
+@media screen and (max-width: 714px) {
+.footer  {
+  margin: 64px 3vw 24px 3vw;
+  grid-template-areas:
+    'footer__links'
+    'footer__copyright';
+  grid-template-rows: auto auto;
+}
 }

@@ -1,25 +1,22 @@
 .cover__title {
   margin:0;
-
+  position: absolute;
   font-size: 4.5rem;
   line-height: 1.055;
-
-  /* grid-column: 2 / 3;
-  grid-row: 4 / 5; */
+  z-index: 2;
 
   text-align: center;
-
 
   color: #fffdfd;
   background-color: transparent;
 
-  /* position: absolute; */
-  align-self: center;
-  justify-self: center;
+
+
+
+
 
   width: 500px;
 
-  z-index: 4;
 }
 
 @media screen and (max-width: 500px) {

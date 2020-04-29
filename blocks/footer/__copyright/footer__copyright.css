@@ -1,16 +1,17 @@
 .footer__copyright {
   margin: 0;
   padding: 0;
-
+  grid-area: footer__copyright;
   list-style: none;
 
   font-size: 0.875rem;
   line-height: 1.143;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 714px) {
   .footer__copyright {
     font-size: 0.875rem;
     line-height: 1;
+    margin: 48px 0 0 0;
   }
 }

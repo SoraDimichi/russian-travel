@@ -17,7 +17,7 @@
   gap: 4vh 3.2vw ;
   place-content: center end;
   max-width: 984px;
-  margin: 0 5vw 0 5vw;
+  margin: 0 3vw 0 3vw;
 }
 
 @media screen and (max-width: 690px) {

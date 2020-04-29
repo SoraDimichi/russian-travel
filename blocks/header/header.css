@@ -5,7 +5,7 @@
 .header {
   grid-area: header;
 
-  display: inline-grid;
+  display: grid;
   grid-template-areas:
     'header__logo header__lang-links';
   margin: 28px 0 56px 0;
@@ -17,6 +17,12 @@
 
 @media screen and (max-width: 1360px) {
   .header  {
-    margin: 28px 5vw 56px 5vw;
+    margin: 28px 3vw 56px 3vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header  {
+    margin: 5vw 3vw 56px 3vw;
   }
 }

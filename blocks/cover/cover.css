@@ -3,26 +3,24 @@
 @import url('./__title/cover__title.css');
 
 .cover {
+
+
   grid-area: cover;
 
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
   background-image: url('./cover__background.jpg');
+
   background-size: cover;
   min-height: 40vw;
   border: 1px solid red;
   width: 100%;
-  /*
 
-
-
-   */
-
-  /* grid-template-columns: 1fr minmax(0, 500px) 1fr;
-  grid-template-rows: repeat(7, 1fr); */
-
-  /* overflow: hidden;
-
-  align-content: center;
-  justify-content: center; */
+  z-index: 1;
 }
