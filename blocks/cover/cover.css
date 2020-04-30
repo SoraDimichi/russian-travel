@@ -1,26 +1,12 @@
+@import url('./__link/cover__link.css');
 @import url('./__overlay/cover__overlay.css');
 @import url('./__subtitle/cover__subtitle.css');
 @import url('./__title/cover__title.css');
 
 .cover {
-
-
-  grid-area: cover;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-
-  display: flex;
-  flex-direction: column;
-  background-image: url('./cover__background.jpg');
-
-  background-size: cover;
-  min-height: 40vw;
-  border: 1px solid red;
-  width: 100%;
-
-  z-index: 1;
+background-image: url(./cover__background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
 }

@@ -2,3 +2,9 @@
   grid-area: header__logo;
   width:100%
 }
+
+@media screen and (max-width: 550px) {
+  .header__logo  {
+    width: 70%;
+  }
+}

@@ -1,6 +1,5 @@
 .place__paragraphs{
   grid-area: place__paragraphs;
-
   display: inline-grid;
   grid-template-rows: min-content 1fr;
   grid-gap: 24px 0;

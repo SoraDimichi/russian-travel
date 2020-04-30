@@ -1,15 +1,9 @@
 .lead__caption {
   grid-area: lead__caption;
-
-  margin: 0;
-
   font-size: 0.625rem;
   line-height: 1.4;
-
   letter-spacing: 0.15rem;
   text-transform: uppercase;
-
-  margin: 8px 0 0 0;
 }
 
 

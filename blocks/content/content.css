@@ -1,6 +1,5 @@
 .content {
   grid-area: content;
-
   display: grid;
   grid-template-areas:
   'lead'
@@ -10,10 +9,8 @@
   'cover';
   grid-template-rows: repeat(5, auto);
   grid-row-gap: 92px;
-
   justify-items: center;
 }
-
 
 @media screen and (max-width: 1024px) {
   .content  {

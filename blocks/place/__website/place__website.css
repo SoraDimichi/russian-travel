@@ -1,10 +1,9 @@
 .place__website {
   grid-area: place__website;
-
   display: grid;
   grid-template-areas:
-    'place__url-heading'
-    'place__link';
+  'place__url-heading'
+  'place__link';
   grid-gap: 12px 0;
   place-self: end start;
 }

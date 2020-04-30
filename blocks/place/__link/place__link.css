@@ -1,11 +1,8 @@
 .place__link {
-  grid-area: place__link;
-
   margin: 0;
-
+  grid-area: place__link;
   font-size: 1.125rem;
   line-height: 1.222;
-
   color: inherit;
   background-color: transparent;
   text-decoration: underline;

@@ -1,11 +1,9 @@
 .lead__title {
   grid-area: lead__title;
   margin: 0 0 32px 0;
-
   font-size: 6rem;
   line-height: 1.0417;
   font-weight: 900;
-
   text-align: center;
 }
 

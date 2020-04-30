@@ -4,13 +4,11 @@
 
 .header {
   grid-area: header;
-
   display: grid;
   grid-template-areas:
-    'header__logo header__lang-links';
+  'header__logo header__lang-links';
   margin: 28px 0 56px 0;
   grid-template-columns: auto auto;
-
   justify-content: space-between;
   align-items: center;
 }

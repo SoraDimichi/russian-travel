@@ -1,13 +1,9 @@
 .place__title {
   grid-area: place__title;
-
   font-size: 4.5rem;
   line-height: 1.055;
   font-weight: 900;
-
   margin: 0;
-
-
 }
 
 @media screen and (max-width: 690px) {
