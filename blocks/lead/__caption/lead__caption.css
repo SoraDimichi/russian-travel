@@ -2,7 +2,7 @@
   grid-area: lead__caption;
   font-size: 0.625rem;
   line-height: 1.4;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
 }
 

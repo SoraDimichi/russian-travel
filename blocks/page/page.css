@@ -5,7 +5,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  margin: 0 auto 0 auto;
+
   display: grid;
   grid-template-areas:
     '. header .'

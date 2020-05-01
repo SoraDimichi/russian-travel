@@ -32,3 +32,9 @@
     margin: 0 0 0 0;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-row-gap: 7vw;
+  }
+}

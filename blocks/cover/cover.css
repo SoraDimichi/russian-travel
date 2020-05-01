@@ -4,7 +4,7 @@
 @import url('./__title/cover__title.css');
 
 .cover {
-background-image: url(./cover__background.jpg);
+background-image: url('./cover__background.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;

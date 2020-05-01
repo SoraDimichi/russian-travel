@@ -4,9 +4,3 @@
   grid-row-gap: 80px;
   justify-items: center;
 }
-
-@media screen and (max-width: 1024px) {
-  .place {
-    grid-row-gap: 7vw;
-  }
-}
