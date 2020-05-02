@@ -9,20 +9,20 @@
   display: grid;
   grid-template-areas:
   'header__logo header__lang-links';
-  margin: 28px 0 56px 0;
+  margin: 2px 48px 56px 48px;
   grid-template-columns: auto auto;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
 }
 
 @media screen and (max-width: 1360px) {
   .header  {
-    margin: 28px 3vw 56px 3vw;
+    margin: 18px 3.1vw 66px 3.1vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header  {
-    margin: 5vw 3vw 56px 3vw;
+    margin: 5vw 3vw 58px 3vw;
   }
 }

@@ -8,7 +8,7 @@
   'places'
   'cover';
   grid-template-rows: repeat(5, auto);
-  grid-row-gap: 92px;
+  grid-row-gap: 95px;
   justify-items: center;
 }
 

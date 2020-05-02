@@ -1,14 +1,7 @@
 .lead__caption {
-  grid-area: lead__caption;
+  margin: 2px 0 0 0;
   font-size: 0.625rem;
   line-height: 1.4;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-}
-
-
-@media screen and (max-width: 984px) {
-  .lead__caption {
-    margin: 8px 3vw 0 3vw;
-  }
 }

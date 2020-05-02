@@ -1,9 +1,11 @@
 .header__lang-links {
   list-style: none;
+  margin: 0 0 5px 0;
   padding: 0;
   grid-area: header__lang-links;
   display:grid;
   grid-template-columns: max-content max-content;
   grid-column-gap: 18px;
   align-items: center;
+
 }

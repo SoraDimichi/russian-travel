@@ -5,7 +5,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
-  grid-gap: 1em;
+  grid-gap: 16px;
 }
 
 @media screen and (max-width: 1330px) {
