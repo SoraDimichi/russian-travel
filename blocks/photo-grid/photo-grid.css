@@ -5,5 +5,11 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
-  grid-gap: 16px;  
+  grid-gap: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  .photo-grid {
+    grid-gap: 14px;
+  }
 }

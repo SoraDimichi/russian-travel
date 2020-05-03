@@ -2,7 +2,12 @@
   grid-area: place__paragraphs;
   display: inline-grid;
   grid-template-rows: min-content 1fr;
-  grid-gap: 24px 0;
+  grid-gap: 24px;
   margin: -4px 0 0 0;
   align-content: start;
+}
+
+
+.place__paragraphs:nth-of-type(4n) {
+  grid-gap: 0;
 }

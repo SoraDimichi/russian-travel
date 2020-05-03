@@ -7,14 +7,18 @@
   grid-area: intro;
   display: grid;
   grid-template-areas:
-    '. intro__title . .'
-    '. intro__text . .'
-    '. intro__list . .';
-  grid-template-columns: minmax(5vw, 1fr) 690px minmax(0, 294px) minmax(5vw, 1fr);
+    'intro__title .'
+    'intro__text .'
+    'intro__list .';
+  grid-template-columns: 690px minmax(0, 294px);
 }
 
-@media screen and (max-width: 982px) {
+@media screen and (max-width: 800px) {
   .intro {
-    grid-template-columns: minmax(3vw, 1fr) auto minmax(3vw, 1fr);
+    grid-template-areas:
+      'intro__title'
+      'intro__text'
+      'intro__list';
+    grid-template-columns: auto ;
   }
 }

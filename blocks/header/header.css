@@ -3,7 +3,6 @@
 @import url('./__lang-link/_active-ru/header__lang-link_active-ru.css');
 @import url('./__logo/header__logo.css');
 
-
 .header {
   grid-area: header;
   display: grid;
@@ -13,4 +12,11 @@
   grid-template-columns: auto auto;
   justify-content: space-between;
   align-items: end;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .header {
+    margin: 28px 0 56px 0;
+  }
 }

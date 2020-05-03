@@ -3,13 +3,17 @@
   font-size: 1.125rem;
   line-height: 1.7;
   white-space: pre-line;
-  self-align: start;
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 1200px) {
+  .place__paragraph {
+    white-space: normal;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .place__paragraph {
     font-size: 1rem;
     line-height: 1.625;
-    margin: 0 3vw 0 3vw;
   }
 }

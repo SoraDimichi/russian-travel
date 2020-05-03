@@ -4,10 +4,10 @@
 @import url('./__title/cover__title.css');
 
 .cover {
+  grid-area: cover;
   background-image: url('./cover__background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
-
 }

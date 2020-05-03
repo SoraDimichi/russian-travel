@@ -8,10 +8,10 @@
   grid-area: lead;
   display: grid;
   grid-template-areas:
-  '. lead__title .'
-  '. lead__subtitle .'
-  '. lead__figure .';
-  grid-template-columns: 1fr minmax(320px, 984px) 1fr;
+  'lead__title'
+  'lead__subtitle'
+  'lead__figure';
+  grid-template-columns: minmax(320px, 984px);
   grid-template-rows: repeat(3, auto);
-  justify-items: center; 
+  justify-items: center;
 }

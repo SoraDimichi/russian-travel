@@ -13,10 +13,22 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .footer {
+    margin: 92px 0 24px 0;
+  }
+}
 
-@media screen and (max-width: 714px) {
+@media screen and (max-width: 900px) {
+  .footer {
+    margin: 86px 0 24px 0;
+  }
+}
+
+
+@media screen and (max-width: 300px) {
 .footer  {
-  margin: 64px 3vw 24px 3vw;
+  margin: 0 3vw 24px 0;
   grid-template-areas:
     'footer__links'
     'footer__copyright';
