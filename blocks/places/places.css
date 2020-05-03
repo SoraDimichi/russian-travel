@@ -1,6 +1,6 @@
 .places {
   grid-area: places;
   display: grid;
-  grid-row-gap: 80px;
+  grid-row-gap: 86px;
   justify-items: center;
 }

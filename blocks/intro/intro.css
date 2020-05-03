@@ -13,8 +13,8 @@
   grid-template-columns: minmax(5vw, 1fr) 690px minmax(0, 294px) minmax(5vw, 1fr);
 }
 
-/* @media screen and (max-width: 982px) {
+@media screen and (max-width: 982px) {
   .intro {
     grid-template-columns: minmax(3vw, 1fr) auto minmax(3vw, 1fr);
   }
-} */
+}

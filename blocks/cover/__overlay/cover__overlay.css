@@ -1,13 +1,12 @@
 .cover__overlay {
   margin: 0;
-  padding: 18% 0 18% 0;
+  padding: 21.1% 0 21.1% 0;
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
-
   position: relative;
-
+  height: auto;
   background-color: transparent;
   color: inherit;
   text-decoration: none;

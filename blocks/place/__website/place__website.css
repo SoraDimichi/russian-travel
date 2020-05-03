@@ -4,8 +4,9 @@
   grid-template-areas:
   'place__url-heading'
   'place__link';
-  grid-gap: 12px 0;
+  grid-gap: 9px 0;
   place-self: end start;
+  margin: 0 0 4px 0;
 }
 
 @media screen and (max-width: 706px) {

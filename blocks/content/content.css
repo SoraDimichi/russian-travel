@@ -9,7 +9,7 @@
   'cover';
   grid-template-rows: repeat(5, auto);
   grid-row-gap: 95px;
-  justify-items: center;
+  justify-items: center; 
 }
 
 @media screen and (max-width: 1024px) {

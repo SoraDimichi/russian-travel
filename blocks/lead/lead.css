@@ -6,7 +6,12 @@
 
 .lead {
   grid-area: lead;
-  display: flex;
-  flex-direction: column;
-  align-items: center;  
+  display: grid;
+  grid-template-areas:
+  '. lead__title .'
+  '. lead__subtitle .'
+  '. lead__figure .';
+  grid-template-columns: 1fr minmax(320px, 984px) 1fr;
+  grid-template-rows: repeat(3, auto);
+  justify-items: center; 
 }
