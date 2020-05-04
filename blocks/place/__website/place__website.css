@@ -1,12 +1,24 @@
 .place__website {
-  grid-area: place__website;
+  grid-area: 1 / 2 / 2 / 3;  
   display: grid;
   grid-template-areas:
   'place__url-heading'
   'place__link';
   grid-gap: 9px 0;
   place-self: end start;
-  margin: 0 0 4px 0;
+  margin: 0 0 49px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .place__website {
+    margin: 0 0 48px 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .place__title {
+    margin: 0 0 45px 0;
+  }
 }
 
 @media screen and (max-width: 706px) {

@@ -2,7 +2,7 @@
   grid-area: places;
   display: grid;
   grid-row-gap: 84px;
-  justify-items: center;
+  justify-items: start;
 }
 
 @media screen and (max-width: 1200px) {
@@ -13,6 +13,6 @@
 
 @media screen and (max-width: 900px) {
   .places {
-    grid-row-gap: 75px;
+    grid-row-gap: 78px;
   }
 }

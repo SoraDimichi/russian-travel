@@ -3,31 +3,33 @@
 @import url('./__website/place__website.css');
 @import url('./__url-heading/place__url-heading.css');
 @import url('./__link/place__link.css');
-@import url('./__paragraphs/place__paragraphs.css');
+/* @import url('./__paragraphs/place__paragraphs.css'); */
 @import url('./__paragraph/place__paragraph.css');
 
 .place {
   margin: 0;
-  display:grid;
-  grid-template-areas:
+  display:inline-grid;
+    /* grid-template-areas:
     'place__title place__website'
-    'place__image place__paragraphs';
+    'place__image place__paragraphs'; */
   grid-template-columns: 460px  1fr;
-  gap: 45px 40px;
+  grid-template-rows: min-content min-content min-content;
+  align-items: start;
+  gap: 0 40px;
   max-width: 984px;
 }
 
 @media screen and (max-width: 1200px) {
   .place {
     grid-template-columns: 440px  1fr;
-    gap: 44px 32px;
+    gap: 0 32px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .place {
     grid-template-columns: 340px  1fr;
-    gap: 47px 28px;
+    gap: 0 28px;
   }
 }
 
