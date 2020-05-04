@@ -8,11 +8,8 @@
   text-decoration: inherit;
 }
 
-.header__lang-link:active {
-  text-decoration: underline;
-}
 
-@media screen and (max-width: 732px) {
+@media screen and (max-width: 670px) {
   .header__lang-link {
     font-size: 1.125rem;
     line-height: 1.333;

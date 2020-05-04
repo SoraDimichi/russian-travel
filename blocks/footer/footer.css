@@ -7,7 +7,7 @@
   display: grid;
   grid-template-areas:
   'footer__links footer__copyright';
-  margin: 88px 0 24px 0;
+  margin: 83px 0 20px 0;
   grid-template-columns: auto auto;
   justify-content: space-between;
   align-items: center;
@@ -15,20 +15,20 @@
 
 @media screen and (max-width: 1200px) {
   .footer {
-    margin: 92px 0 24px 0;
+    margin: 89px 0 24px 0;
   }
 }
 
 @media screen and (max-width: 900px) {
   .footer {
-    margin: 86px 0 24px 0;
+    margin: 88px 0 24px 0;
   }
 }
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 670px) {
 .footer  {
-  margin: 0 3vw 24px 0;
+  margin: 67px 0 24px 0;
   grid-template-areas:
     'footer__links'
     'footer__copyright';

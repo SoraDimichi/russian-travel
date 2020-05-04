@@ -7,7 +7,7 @@
   'photo-grid photo-grid photo-grid'
   '. places .'
   'cover cover cover';
-  grid-template-columns: minmax(48px, 1fr) minmax(320px, 984px) minmax(48px, 1fr);
+  grid-template-columns: minmax(48px, 1fr) minmax(288px, 984px) minmax(48px, 1fr);
   grid-template-rows: repeat(5, auto);
   justify-content: center;
   grid-row-gap: 95px;
@@ -32,8 +32,22 @@
     '. photo-grid .'
     '. places .'
     'cover cover cover';
-    grid-template-columns: minmax(24px, max-content) minmax(320px, 984px) minmax(24px, max-content);
+    grid-template-columns: minmax(24px, max-content) minmax(288px, 984px) minmax(24px, max-content);
     grid-row-gap: 91px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .content {
+    grid-template-areas:
+    'lead lead lead'
+    '. intro .'
+    '. photo-grid .'
+    'places places places'
+    'cover cover cover';
+    grid-template-columns: minmax(16px, max-content) minmax(288px, 984px) minmax(16px, max-content);
+    grid-row-gap: 65px;
     justify-content: center;
   }
 }

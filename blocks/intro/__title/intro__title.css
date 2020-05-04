@@ -6,9 +6,10 @@
   font-weight: 900;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 670px) {
   .intro__title  {
     font-size: 2rem;
     line-height: 1.094;
+    white-space: pre-line;
   }
 }

@@ -9,3 +9,9 @@
   align-items: center;
 
 }
+
+@media screen and (max-width: 670px) {
+  .header__lang-links {
+    grid-column-gap: 19px;
+  }
+}

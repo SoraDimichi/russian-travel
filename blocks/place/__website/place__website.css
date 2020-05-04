@@ -1,5 +1,5 @@
 .place__website {
-  grid-area: 1 / 2 / 2 / 3;  
+  grid-area: 1 / 2 / 2 / 3;
   display: grid;
   grid-template-areas:
   'place__url-heading'
@@ -16,13 +16,14 @@
 }
 
 @media screen and (max-width: 900px) {
-  .place__title {
+  .place__website {
     margin: 0 0 45px 0;
   }
 }
 
-@media screen and (max-width: 706px) {
+@media screen and (max-width: 670px) {
   .place__website {
     display: none;
+    margin: 0 0 0 0;
   }
 }

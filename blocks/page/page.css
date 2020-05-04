@@ -37,16 +37,16 @@
       '. . header . .'
       '. content content content .'
       '. . footer . .';
-    grid-template-columns: 1fr minmax(24px, 1fr) minmax(320px, 1184px) minmax(24px, 1fr) 1fr;
+    grid-template-columns: 1fr minmax(24px, 1fr) minmax(288px, 1184px) minmax(24px, 1fr) 1fr;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .page {
     grid-template-areas:
       '. . header . .'
       '. content content content .'
       '. . footer . .';
-    grid-template-columns: 1fr minmax(16px, 1fr) minmax(320px, 1184px) minmax(16px, 1fr) 1fr;
+    grid-template-columns: 1fr minmax(16px, 1fr) minmax(288px, 1184px) minmax(16px, 1fr) 1fr;
   }
 }

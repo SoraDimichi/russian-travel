@@ -3,17 +3,13 @@
 @import url('./__website/place__website.css');
 @import url('./__url-heading/place__url-heading.css');
 @import url('./__link/place__link.css');
-/* @import url('./__paragraphs/place__paragraphs.css'); */
 @import url('./__paragraph/place__paragraph.css');
 
 .place {
   margin: 0;
   display:inline-grid;
-    /* grid-template-areas:
-    'place__title place__website'
-    'place__image place__paragraphs'; */
   grid-template-columns: 460px  1fr;
-  grid-template-rows: min-content min-content min-content;
+  grid-template-rows: auto auto auto;
   align-items: start;
   gap: 0 40px;
   max-width: 984px;
@@ -33,14 +29,12 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 670px) {
   .place {
-    grid-template-areas:
-      'place__title'
-      'place__image'
-      'place__paragraphs';
-    grid-template-columns: 1fr;
     justify-content: center;
     align-content: end;
+    grid-template-columns: auto;
+    grid-template-rows: min-content;
+    gap: 0 0;
   }
 }

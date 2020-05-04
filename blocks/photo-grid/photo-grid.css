@@ -8,8 +8,13 @@
   grid-gap: 16px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   .photo-grid {
-    grid-gap: 14px;
+    grid-gap: 16px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .photo-grid {
+    grid-gap: 12px;
   }
 }
