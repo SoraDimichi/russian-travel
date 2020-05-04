@@ -7,7 +7,7 @@
   display: grid;
   grid-template-areas:
   'footer__links footer__copyright';
-  margin: 83px 0 20px 0;
+  margin: 93px 0 20px 0;
   grid-template-columns: auto auto;
   justify-content: space-between;
   align-items: center;
@@ -26,12 +26,12 @@
 }
 
 
-@media screen and (max-width: 670px) {
-.footer  {
-  margin: 67px 0 24px 0;
-  grid-template-areas:
-    'footer__links'
-    'footer__copyright';
-  grid-template-rows: auto auto;
-}
+@media screen and (max-width: 714px) {
+  .footer  {
+    margin: 67px 0 24px 0;
+    grid-template-areas:
+      'footer__links'
+      'footer__copyright';
+    grid-template-rows: auto auto;
+  }
 }

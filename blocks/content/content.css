@@ -10,7 +10,7 @@
   grid-template-columns: minmax(48px, 1fr) minmax(288px, 984px) minmax(48px, 1fr);
   grid-template-rows: repeat(5, auto);
   justify-content: center;
-  grid-row-gap: 95px;
+  grid-row-gap: 94px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -21,6 +21,7 @@
     '. photo-grid .'
     '. places .'
     'cover cover cover';
+    grid-row-gap: 94px;
   }
 }
 
@@ -33,7 +34,7 @@
     '. places .'
     'cover cover cover';
     grid-template-columns: minmax(24px, max-content) minmax(288px, 984px) minmax(24px, max-content);
-    grid-row-gap: 91px;
+    grid-row-gap: 88px;
     justify-content: center;
   }
 }

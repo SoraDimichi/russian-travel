@@ -8,9 +8,15 @@
   grid-gap: 16px;
 }
 
+@media screen and (max-width: 1276px) {
+  .photo-grid {
+    grid-gap: 14px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .photo-grid {
-    grid-gap: 16px;
+    grid-gap: 15px;
   }
 }
 @media screen and (max-width: 670px) {

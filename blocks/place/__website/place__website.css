@@ -9,7 +9,7 @@
   margin: 0 0 49px 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1276px) {
   .place__website {
     margin: 0 0 48px 0;
   }
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 900px) {
   .place__website {
-    margin: 0 0 45px 0;
+    margin: 0 0 50px 0;
   }
 }
 

@@ -4,3 +4,11 @@
   font-size: 1rem;
   line-height: 1.625;
 }
+
+
+
+@media screen and (max-width: 1200px) {
+  .intro__text {
+    margin: 34px 0 0 0;
+  }
+}

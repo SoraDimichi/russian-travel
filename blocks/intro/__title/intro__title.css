@@ -1,6 +1,6 @@
 .intro__title {
   grid-area: intro__title;
-  margin: 0;
+  margin: 2px 0 0 0;
   font-size: 3.375rem;
   line-height: 1.094;
   font-weight: 900;
@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 670px) {
   .intro__title  {
-    font-size: 2rem;
+    font-size: 2em;
     line-height: 1.094;
     white-space: pre-line;
   }
